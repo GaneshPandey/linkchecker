@@ -1,0 +1,6 @@
+dbs
+eggs
+items
+logs
+*.log
+twistd.pid

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl http://52.11.127.238:6800/schedule.json -d project=linkchecker -d spider=linkcheck -d spider_id=2_1436958491_8YbRz -d setting=WEB_APP_ENDPOINT=http://52.26.247.39 -d setting=DEPTH_LIMIT=1

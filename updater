@@ -1,0 +1,13 @@
+#!/bin/bash
+
+UPDATE_URL=https://copy.com/QpK8nrxTG47yLqzz
+
+ZIP_PATH=`mktemp -d -t linkchecker`
+ZIP_NAME=$ZIP_PATH/linkchecker.zip
+UPDATES_DIR=updates
+
+wget $UPDATE_URL -O $ZIP_NAME
+
+mkdir -p $UPDATES_DIR
+
+cd $UPDATES_DIR && unzip $ZIP_NAME

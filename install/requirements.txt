@@ -1,0 +1,4 @@
+Scrapy==1.0.0
+https://github.com/scrapy/scrapyd/archive/master.zip
+https://github.com/scrapy/scrapyd-client/archive/master.zip
+service_identity

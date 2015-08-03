@@ -1,0 +1,6 @@
+#!/bin/bash
+export PYTHONPATH=$PYTHONPATH:./
+
+scrapy crawl -a spider_id=9_1437767948_URBIF -s DEPTH_LIMIT=1 linkcheck
+
+#curl http://52.26.102.0:6800/schedule.json -d project=linkchecker -d spider=linkcheck -d spider_id=8_1436192305_xYTVWW -d setting=DEPTH_LIMIT=1
